@@ -1,5 +1,5 @@
 header {
-    background-color: #343434;
+    background-color: #29273a;
     display: flex;
     gap: 80px;
     justify-content: center;
@@ -15,5 +15,58 @@ h1 {
 }
 
 body {
-    background-color: #717171;
+    background-color: #b6b3d2;
+    margin: 0;
+    padding: 0;
 }  
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+#scores {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#scores p {
+    font-size: 30px;
+    color: black;
+}
+
+#playerChoice {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 40px;
+}
+
+#playerChoice div img:hover {
+    transform: translateY(-20px);
+}
+
+#playerChoice div img{
+    height: 200px;
+}
+
+#playerChoice div p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#choiceDisplay {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+#choiceDisplay div p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}

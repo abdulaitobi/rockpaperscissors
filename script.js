@@ -38,10 +38,10 @@ function playRound(playerChoice, computerSelection){
     compVal.textContent = computerSelection;
 
     //  reset the displays if a player wins
-    /*  if (playercount === 5 || compcount === 5) {
-     *      playerVal.style.display = 'none';
-     *      compVal.style.display = 'none';
-    }*/
+    if (playercount === 5 || compcount === 5) {
+           playerVal.style.display = 'none';
+           compVal.style.display = 'none';
+    }
 
     //  checks if the player lost the round
     if((playerChoice.toLowerCase() === "rock" && computerSelection.toLowerCase() === "paper") || (playerChoice.toLowerCase() === "paper" && computerSelection.toLowerCase() === "scissors") || (playerChoice.toLowerCase() === "scissors" && computerSelection.toLowerCase() === "rock"))

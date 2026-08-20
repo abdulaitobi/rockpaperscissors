@@ -1,3 +1,15 @@
-# rockpaperscissors
-The classic Rock Paper Scissors game where the user plays the game against the computer. The first to get to 5 points wins the game
-https://abdulaitobi.github.io/rockpaperscissors/
+# Rock Paper Scissors
+
+The classic game of Rock Paper Scissors built using JavaScript. 
+
+![enter image description here](https://github.com/abdulaitobi/rockpaperscissors/blob/main/Gameplay%20screenshot.png?raw=true)
+
+## Features
+
+- Play against computer
+- First to 5
+- Interactive
+- Game history and User experience
+
+## How to run
+You can access Rock Paper Scissors through this link: https://abdulaitobi.github.io/rockpaperscissors/
